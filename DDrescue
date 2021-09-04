@@ -1,0 +1,16 @@
+ddrescue -> Herramienta que uso para poner imagenes ISO en dispositivos
+
+CREAR IMAGEN EN DEVICE:
+1- sudo apt update                                      -> actualizacion normal
+2- sudo apt install gddrescue                           -> install tool
+3- sudo fdisk -l                                        -> veo listado de devices conectados
+4- sudo ddrescue rutaISO rutaDESTINODEIMAGEN --force -D -> se crea imagen en device
+
+FORMATEO DE DEVICE:
+sudo dd if=/dev/zero of=/dev/DEVICEELEGIDO
+
+ACRONIMOS:
+dd        = data definition
+if        = input file
+of        = output file
+/dev/zero = escribe ceros en la partición elegida
