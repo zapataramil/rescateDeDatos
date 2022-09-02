@@ -14,3 +14,5 @@ dd        = data definition
 if        = input file
 of        = output file
 /dev/zero = escribe ceros en la partición elegida
+
+..
